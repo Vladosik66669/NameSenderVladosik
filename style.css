@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Dosis:wght@300&family=Maven+Pro:wght@500&family=Rubik+Dirt&display=swap');
+
+body{
+    background-color: #212121;
+}
+
+#fonGroung{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background-color: #323232;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 0 25px #161616;
+}
+
+#userName{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+}
+
+#btnDone{
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0px;
+    height: 50px;
+    width: 350px;
+    border: 0px;
+    letter-spacing: 10px;
+    border-radius: 0 0 15px 15px;
+    background-color: #323232;
+    font-size: 25px;
+    transition: 0.2s;
+    color:rgb(255, 255, 255);
+}
+
+#btnDone:hover{
+    background-color: #383838;
+}
+
+#btnDone:hover{
+    color: #14FFEC;
+}
+
+#line{
+    position: absolute;
+    top: 0px;
+    height: 5px;
+    width: 0px;
+    background-color: #14FFEC;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 0 25px #14FFEC;
+    transition: 0.75s all;
+}
+#lineText{
+    position: absolute;
+    top: 0px;
+    height: 50px;
+    width: 0px;
+    background-color: #14FFEC;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 0 25px #14FFEC;
+    transition: 0.75s all;
+}
+
+#btnDone:hover #line{
+    width: 350px;
+}
+
+#typeName{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 50px;
+    border: 0px;
+    height: 50px;
+    width: 345px;
+    outline:none;
+    background-color:#383838;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
